@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}projects{% endblock %}
+{% block projectsactive %}active{% endblock %}
+{% block body %}
+    <div class="container my-4 ">
+        <div class="container  overflow-hidden text-center  ">
+            <div class="  p-3 border background-bg">
+                <div class="card background-bg  "style="flex: -moz-fit-content" >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcaImiw-ACvy2KSGFVM5WGpAxm6iJVNPOTH79NxWdrDJbPHjPuAYBClF_SkqmCT1Oano&usqp=CAU"
+                         style=" height: 400px ;width: 900px;
+                         "class="text-center" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">forest fire detectin using IOT </h5>
+                        <p class="card-text">The main aim of our project is to detect the forest fire </p>
+                        <a href="https://youtu.be/YwhV2nXJqhQ" class="btn btn-outline-secondary">project video</a>
+                    </div>
+                </div>
+            </div>
+            {#                <div class="col g-0 ">#}
+            {#                    <h class="btn-outline-dark">ABSTRACT</h>#}
+            {#                    <div class="p-3 border text background-bg">#}
+            {##}
+            {#                        <p>Forest fires are common hazards in forests that cause a lot of harm to Wildlife as well as the Environment It could be avoided if a robust system could be deployed in forest areas to detect the fire and alert to Fire extinguishing authority to take immediate action.In this project, the intention is to build a Forest fire detection system using IoT which would detect the fire and send an emergency alert to Authority through IoT.#}
+            {#                        </p>#}
+            {#                    </div>#}
+            {#                </div>#}
+        </div>
+    </div>
+
+
+    <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+            <div class="col g-0">
+                <div class="p-3 border bg-light">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.gadgets360cdn.com/large/jpg_to_pdf_1591980583835.jpg"
+                             class="card-img-top"
+                             alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Image to pdf converter</h5>
+                            <p class="card-text">The main aim of our project is to convert image into pdf </p>
+                            <a href="https://youtu.be/YwhV2nXJqhQ" class="btn btn-outline-warning">project video</a>
+                            <a href="" class="btn btn-outline-warning">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="30" fill="currentColor"
+                                     class="bi bi-hand-index-thumb-fill" viewBox="0 0 16 16">
+                                    <path d="M8.5 1.75v2.716l.047-.002c.312-.012.742-.016 1.051.046.28.056.543.18.738.288.273.152.456.385.56.642l.132-.012c.312-.024.794-.038 1.158.108.37.148.689.487.88.716.075.09.141.175.195.248h.582a2 2 0 0 1 1.99 2.199l-.272 2.715a3.5 3.5 0 0 1-.444 1.389l-1.395 2.441A1.5 1.5 0 0 1 12.42 16H6.118a1.5 1.5 0 0 1-1.342-.83l-1.215-2.43L1.07 8.589a1.517 1.517 0 0 1 2.373-1.852L5 8.293V1.75a1.75 1.75 0 0 1 3.5 0z"/>
+                                </svg>
+                                project ppt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col g-0">
+                <h class="btn-outline-dark">ABSTRACT</h>
+                <div class="p-3 border bg-light">
+
+                    <p>Working with images in our daily life is essential as well as difficult. Hence converting them
+                        into easily readable format .
+                    </p></div>
+            </div>
+        </div>
+    </div>
+    <div class="container  overflow-hidden text-center ">
+
+        <div class="row gx-5">
+            <div class="col g-0">
+                <div class="p-3 border bg-light">
+                    <div class="card" style="width: 18rem;">
+                        <img src="data:image/png;base64,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"
+                             class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">FACE DETECTION </h5>
+                            <p class="card-text">The main aim of our project is to detect the face and based on
+                                attendance monitoring system </p>
+                            <a href="" class="btn btn-outline-danger">project image</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col g-0">
+                <h class="btn-outline-dark">ABSTRACT</h>
+                <div class="p-3 border bg-light">Facial recognition is a category of biometric software that maps an
+                    individual's facial features mathematically and stores the data as a faceprint
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
